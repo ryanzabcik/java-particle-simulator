@@ -1,0 +1,13 @@
+collide(Particle A, Particle B)
+
+find the tangent vector to their surfaces and call it tan
+	vector sum, ensuring it will be perpendicular to one of the vectors of A or B
+for particle that is not perpendicular:
+	rotate coordinate plane so tan is in vertical direction
+	y is held constant
+	x will change such that momentum is conserved (x = -x if of equal velocity)
+	re-rotate coordinate plane to original orientation
+for the particle that is perpendicular:
+	reverse direction of vector with respect to tan
+	change will be such that momentum is conserved
+	
